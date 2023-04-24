@@ -20,3 +20,6 @@ docker build -t docker-image-tag .
 ```
 docker run -dp 5005:5000 -w /app -v "%cd%:/app" flask-smorest-api
 ```
+6. Visit [URL](http://127.0.0.1:5005/swagger-ui
+) below for UI documentation and test API endpoints
+
