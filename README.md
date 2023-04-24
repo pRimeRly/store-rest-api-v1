@@ -1,9 +1,9 @@
 # Stores REST API
 
 ## Project Description
-A RESTful API built with Flask and Flask-Smorest, which provides endpoints for managing stores and their respective items. The API allows users to create, retrieve, update, and delete items and stores.
+This is a Store API built with Flask and Python, designed to manage stores and their associated items. The API utilizes a RESTful architecture, allowing clients to easily interact with it using standard HTTP requests. The data is stored in an SQLite database, ensuring a lightweight and efficient system.
 
-The data is stored in a relational database managed by SQLAlchemy. There are two models defined in this project, ItemModel and StoreModel, which represent the items and stores respectively. ItemModel has a foreign key to StoreModel, allowing a store to have multiple items.
+With this API, clients can create, update, delete, and retrieve stores and their items. The API is designed to be flexible and easy to use, with comprehensive documentation provided to assist developers in integrating it into their projects. The API is built using best practices, ensuring that it is scalable and maintainable over time.
 The application uses predefined Marshmallow schemas which define the structure of the data that can be sent and received by the API endpoints.
 
 ### STEPS FOR RUNNING APPLICATION
